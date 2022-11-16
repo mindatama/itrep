@@ -6,6 +6,7 @@ import 'package:bwashamo_apps/pages/checkout_success_page.dart';
 import 'package:bwashamo_apps/pages/edit_profile_page.dart';
 import 'package:bwashamo_apps/pages/home/main_page.dart';
 import 'package:bwashamo_apps/pages/home/sukasuka_page.dart';
+import 'package:bwashamo_apps/pages/home/test.dart';
 import 'package:bwashamo_apps/pages/product_page.dart';
 import 'package:bwashamo_apps/pages/sign_in_page.dart';
 import 'package:bwashamo_apps/pages/sign_up_page.dart';
@@ -38,7 +39,8 @@ class MyApp extends StatelessWidget {
           '/cart':(context) => CartPage(), 
           '/checkout':(context) => CheckoutPage(), 
           '/checkout-success':(context) => CheckoutSuccessPage(), 
-          '/Sukasuka':(context) => SukasukaPage()
+          '/sukasuka':(context) => SukasukaPage(),
+          '/test':(context) => TestPage()
         },
       ),
     );
