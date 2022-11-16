@@ -36,7 +36,7 @@ class _SplashPageState extends State<SplashPage> {
             SizedBox(
               width: 300,
               height: 300,
-              child: LottieBuilder.asset('assets/business-analysis.json'),
+              child: LottieBuilder.asset('assets/loading-hape.json'),
             ),
             Text(
               'Loading your apps, please wait',

@@ -2,10 +2,16 @@
 
 import 'package:flutter/material.dart';
 import 'package:bwashamo_apps/theme.dart';
+import 'package:webview_flutter/webview_flutter.dart';
 
-class RadioPage extends StatelessWidget {
+class RadioPage extends StatefulWidget {
   
 
+  @override
+  State<RadioPage> createState() => _RadioPageState();
+}
+
+class _RadioPageState extends State<RadioPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -20,8 +26,11 @@ class RadioPage extends StatelessWidget {
         elevation: 0,
         automaticallyImplyLeading: false,
       ),
-      backgroundColor: backgroundColor1,
-      body: Center(child: Text('Radio', style: primaryTextStyle.copyWith(fontWeight: medium, fontSize: 24) ,),),
+      // backgroundColor: backgroundColor1,
+      body: WebView(
+        // javascriptMode: JavascriptMode.unrestricted,
+        initialUrl: 'https://flutter.dev',
+      )
     );
   }
 }
