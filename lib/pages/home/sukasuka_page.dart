@@ -1,5 +1,7 @@
 // ignore_for_file: prefer_const_constructors
 
+import 'dart:ui';
+
 import 'package:bwashamo_apps/pages/home/network_page.dart';
 import 'package:bwashamo_apps/pages/home/operation_page.dart';
 import 'package:bwashamo_apps/pages/home/radio_page.dart';
@@ -32,10 +34,10 @@ final screens = [
   Widget build(BuildContext context) {
 
     final items = <Widget>[
-      Icon(Icons.home, size: 30,),
+      Icon(Icons.home, size: 30,), 
       Icon(Icons.search, size: 30,),
       Icon(Icons.favorite, size: 30,),
-      Icon(Icons.person, size: 30,),
+      Image(image: AssetImage('assets/icon_chat.png'), width: 27, color: Colors.purple,),
       // Icon(Icons.settings, size: 30,),
     ];
 
@@ -45,6 +47,7 @@ final screens = [
         top: false,
         child: ClipRect(
           child: Scaffold(
+            extendBodyBehindAppBar: true,
             extendBody: true,
             backgroundColor: Colors.purple,
             // appBar: AppBar(title: Text('Report IT IPR'), elevation: 0, centerTitle: true,),
@@ -66,7 +69,7 @@ final screens = [
             // ],
             items: items,
             index: index,
-            height: 55,
+            height: 60,
             onTap: (value) {
               setState(() {
                 index = value;
