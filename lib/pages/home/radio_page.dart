@@ -16,20 +16,21 @@ class _RadioPageState extends State<RadioPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       extendBodyBehindAppBar: true,
-      appBar: AppBar(
-        backgroundColor: Colors.transparent,
-        centerTitle: true,
-        title: Text(
-          'Radio Komunikasi',
-          style: primaryTextStyle.copyWith(fontSize: 18, fontWeight: medium),
-        ),
-        elevation: 0,
-        automaticallyImplyLeading: false,
-      ),
-      // backgroundColor: backgroundColor1,
+      // appBar: AppBar(
+      //   backgroundColor: Colors.transparent,
+      //   centerTitle: true,
+      //   title: Text(
+      //     'Radio Komunikasi',
+      //     style: primaryTextStyle.copyWith(fontSize: 18, fontWeight: medium),
+      //   ),
+      //   elevation: 0,
+      //   // automaticallyImplyLeading: false,
+      // ),
+      backgroundColor: backgroundColor1,
       body: WebView(
-        // javascriptMode: JavascriptMode.unrestricted,
-        initialUrl: 'https://docs.google.com/spreadsheets/d/1l5VGAOXYLDFjL8z5PREvv9Hnj-ijovAl6wX2J06B3kI/edit#gid=60067595',
+        javascriptMode: JavascriptMode.unrestricted,
+        initialUrl: 'https://google.com',
+        // initialUrl: 'https://docs.google.com/spreadsheets/d/1l5VGAOXYLDFjL8z5PREvv9Hnj-ijovAl6wX2J06B3kI/edit#gid=60067595',
       )
     );
   }

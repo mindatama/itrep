@@ -50,7 +50,7 @@ final screens = [
             extendBodyBehindAppBar: true,
             extendBody: true,
             backgroundColor: Colors.purple,
-            // appBar: AppBar(title: Text('Report IT IPR'), elevation: 0, centerTitle: true,),
+            appBar: AppBar(title: Text('Report IT IPR'), elevation: 0, centerTitle: true,),
           bottomNavigationBar: Theme(
           data: Theme.of(context).copyWith(
             iconTheme: IconThemeData(color: Colors.orange)
