@@ -29,7 +29,7 @@ class _RadioPageState extends State<RadioPage> {
       // backgroundColor: backgroundColor1,
       body: WebView(
         // javascriptMode: JavascriptMode.unrestricted,
-        initialUrl: 'https://flutter.dev',
+        initialUrl: 'https://docs.google.com/spreadsheets/d/1l5VGAOXYLDFjL8z5PREvv9Hnj-ijovAl6wX2J06B3kI/edit#gid=60067595',
       )
     );
   }
