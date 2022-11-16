@@ -21,11 +21,11 @@ class _SukasukaPageState extends State<SukasukaPage> {
     items: const <Widget>[
       Icon(Icons.favorite, size: 30, color: Colors.pink),
       Icon(Icons.one_k_outlined, size: 30),
-      Image(image: AssetImage('assets/icon_chat.png'), width: 30, color: Colors.purple,) //test
+      Image(image: AssetImage('assets/icon_chat.png'), width: 30, color: Colors.purple,), //test
     ],
 
   ),
-  body: Container(color: Colors.blueAccent), 
+  // body: Container(color: Colors.blueAccent), 
 );
   }
 }
