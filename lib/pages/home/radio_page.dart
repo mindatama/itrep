@@ -28,7 +28,7 @@ class _RadioPageState extends State<RadioPage> {
       // ),
       backgroundColor: backgroundColor1,
       body: WebView(
-        //comment ja, lagi
+        //comment ja, lagi, lagi
         javascriptMode: JavascriptMode.unrestricted,
         initialUrl: 'https://amazon.com',
         // initialUrl: 'https://docs.google.com/spreadsheets/d/1l5VGAOXYLDFjL8z5PREvv9Hnj-ijovAl6wX2J06B3kI/edit#gid=60067595',
