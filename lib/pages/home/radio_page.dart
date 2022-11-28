@@ -29,10 +29,12 @@ class _RadioPageState extends State<RadioPage> {
       backgroundColor: backgroundColor1,
       body: WebView(
         //comment ja, lagi, lagi, lg
+        //sepertinya akan lama karena fokus API ssci dulu deh
         javascriptMode: JavascriptMode.unrestricted,
         initialUrl: 'https://amazon.com',
         // initialUrl: 'https://docs.google.com/spreadsheets/d/1l5VGAOXYLDFjL8z5PREvv9Hnj-ijovAl6wX2J06B3kI/edit#gid=60067595',
       )
     );
+    //kok gak bisa lancar ya
   }
 }
