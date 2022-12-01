@@ -14,7 +14,7 @@ class NetworkPage extends StatelessWidget {
         backgroundColor: Colors.transparent,
         centerTitle: true,
         title: Text(
-          'Network',
+          'Networks',
           style: primaryTextStyle.copyWith(fontSize: 18, fontWeight: medium),
         ),
         elevation: 0,
