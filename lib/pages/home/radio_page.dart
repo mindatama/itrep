@@ -35,6 +35,6 @@ class _RadioPageState extends State<RadioPage> {
         // initialUrl: 'https://docs.google.com/spreadsheets/d/1l5VGAOXYLDFjL8z5PREvv9Hnj-ijovAl6wX2J06B3kI/edit#gid=60067595',
       )
     );
-    //kok gak bisa lancar ya? duh
+    //kok gak bisa lancar ya? duh..
   }
 }
