@@ -4,8 +4,6 @@ import 'package:flutter/material.dart';
 import 'package:bwashamo_apps/theme.dart';
 
 class NetworkPage extends StatelessWidget {
-  
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -21,7 +19,12 @@ class NetworkPage extends StatelessWidget {
         automaticallyImplyLeading: false,
       ),
       backgroundColor: backgroundColor1,
-      body: Center(child: Text('Network', style: primaryTextStyle.copyWith(fontWeight: medium, fontSize: 24) ,),),
+      body: Center(
+        child: Text(
+          'Network',
+          style: primaryTextStyle.copyWith(fontWeight: medium, fontSize: 24),
+        ),
+      ),
     );
   }
 }
