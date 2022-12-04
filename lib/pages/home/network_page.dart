@@ -12,19 +12,14 @@ class NetworkPage extends StatelessWidget {
         backgroundColor: Colors.transparent,
         centerTitle: true,
         title: Text(
-          'Networks',
+          'Networks aja kasih grid',
           style: primaryTextStyle.copyWith(fontSize: 18, fontWeight: medium),
         ),
         elevation: 0,
         automaticallyImplyLeading: false,
       ),
       backgroundColor: backgroundColor1,
-      body: Center(
-        child: Text(
-          'Network',
-          style: primaryTextStyle.copyWith(fontWeight: medium, fontSize: 24),
-        ),
-      ),
+      body: GridView.count(crossAxisCount: 2)
     );
   }
 }
