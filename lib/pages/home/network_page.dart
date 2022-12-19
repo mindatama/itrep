@@ -12,7 +12,7 @@ class NetworkPage extends StatelessWidget {
         backgroundColor: Colors.transparent,
         centerTitle: true,
         title: Text(
-          'Networks aja kasih grid josssshhhhhhhhh',
+          'Networks aja kasih grid jos',
           style: primaryTextStyle.copyWith(fontSize: 18, fontWeight: medium),
         ),
         elevation: 0,
