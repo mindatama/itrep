@@ -24,4 +24,4 @@ class NetworkPage extends StatelessWidget {
   }
 }
 
-//berkutat serer dulu ya sehari ini, lnjut 2hr, lnjut hr ke-3, lagi, lagi dong, urus traccar, lnjt traaccar, nyobain lokal
+//berkutat serer dulu ya sehari ini, lnjut 2hr, lnjut hr ke-3, lagi, lagi dong, urus traccar, lnjt traaccar, nyobain lokal, nambah server lg
