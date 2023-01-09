@@ -19,7 +19,7 @@ class ProfilePage extends StatelessWidget {
               ClipOval(
                 child: Image.asset(
                   'assets/image_profile.png',
-                  width: 64,
+                  height: 44,
                 ),
               ),
               SizedBox(

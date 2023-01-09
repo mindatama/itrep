@@ -16,16 +16,16 @@ class _RadioPageState extends State<RadioPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       extendBodyBehindAppBar: true,
-      // appBar: AppBar(
-      //   backgroundColor: Colors.transparent,
-      //   centerTitle: true,
-      //   title: Text(
-      //     'Radio Komunikasi',
-      //     style: primaryTextStyle.copyWith(fontSize: 18, fontWeight: medium),
-      //   ),
-      //   elevation: 0,
-      //   // automaticallyImplyLeading: false,
-      // ),
+      appBar: AppBar(
+        backgroundColor: Colors.transparent,
+        centerTitle: true,
+        title: Text(
+          'Radio Komunikasi',
+          style: primaryTextStyle.copyWith(fontSize: 18, fontWeight: medium), textScaleFactor: 13,
+        ),
+        elevation: 12,
+        // automaticallyImplyLeading: false,
+      ),
       backgroundColor: backgroundColor1,
       body: WebView(
         //comment ja, lagi, lagi, lg

@@ -16,7 +16,9 @@ class ReportPage extends StatelessWidget {
         centerTitle: true,
         title: Text(
           'Report page',
-          style: primaryTextStyle.copyWith(fontSize: 18, fontWeight: medium),
+          //report dengan link pada gambar 
+
+          style: primaryTextStyle.copyWith(fontSize: 18, fontWeight: medium), 
         ),
         elevation: 0,
         automaticallyImplyLeading: false,
