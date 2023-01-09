@@ -70,7 +70,7 @@ class ChatPage extends StatelessWidget {
         ),
       ));
     }
-
+//nyoba test baru aja.. bikin pamer orang orang 
     Widget content() {
       return Expanded(
           child: Container(
@@ -87,6 +87,7 @@ class ChatPage extends StatelessWidget {
       children: [header(), 
       // emptyChat(), 
       content()],
+      
     );
   }
 }
