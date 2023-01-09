@@ -72,7 +72,7 @@ class _HomePageState extends State<HomePage> {
                     borderRadius: BorderRadius.circular(12),
                     color: primaryColor),
                 child: Text(
-                  'All Shoes',
+                  'All Shoes wo link',
                   style:
                       priceTextStyle.copyWith(fontSize: 13, fontWeight: medium),
                 ),
@@ -85,7 +85,6 @@ class _HomePageState extends State<HomePage> {
                 margin: EdgeInsets.only(right: 16),
                 decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(12),
-                    border: Border.all(color: subtitleColor),
                     color: transparentColor),
                 child: Text(
                   'Running',
@@ -171,8 +170,7 @@ class _HomePageState extends State<HomePage> {
               Row(
                 children: [
                   ProductCard(),
-                  ProductCard(),
-                  ProductCard(),
+                  // ProductCard(),
                 ],
               )
             ],
@@ -198,9 +196,9 @@ class _HomePageState extends State<HomePage> {
         child: Column(
           children: [
             ProductTile(),
-            ProductTile(),
-            ProductTile(),
-            ProductTile(),
+            // ProductTile(),
+            // ProductTile(),
+            // ProductTile(),
           ],
         ),
       );
@@ -210,8 +208,8 @@ class _HomePageState extends State<HomePage> {
       children: [
         header(),
         categories(),
-        popularproductstitle(),
-        popularproducts(),
+        // popularproductstitle(),
+        // popularproducts(),
         newarrivalsproductstitle(),
         newarrivalsproducts()
       ],
