@@ -26,4 +26,4 @@ class NetworkPage extends StatelessWidget {
 
 //berkutat serer dulu ya sehari ini, lnjut 2hr, lnjut hr ke-3, lagi, lagi dong, urus traccar, lnjt traaccar, nyobain lokal, nambah server lg, suruh nambah server wait ya.. muda2an 2malem ini selesai. 
 //sudah sih CACTI, bikin kuberneter dulu deh, akhir taun start kubernetes, kubelet kok kebelet
-//lagi, lagi. ngajar anak sma 2 hari ini jumta sabtu. masih lanjut..
+//lagi, lagi. ngajar anak sma 2 hari ini jumta sabtu. masih lanjut..  
