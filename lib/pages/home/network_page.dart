@@ -38,6 +38,7 @@ class NetworkPage extends StatelessWidget {
 //27 jun scroll aja,hah
 //28 jun keknya bisa deh
 //29 jun malah scroll
+//30 jun anjing AC apa heater cok. 24 rasa 30, rak adus. mambu su!!
 //masih lanjut docker lagi
 //lagi, lagi, lagi, lagi, lagi.lagi
 //lagi, sekarang fokus nutanix.. lagi. membukalagi, lagi. lagi, lagi. lagi, lagi
