@@ -43,6 +43,7 @@ class NetworkPage extends StatelessWidget {
 //3 jun bisa deh, kemaren enak sayang dilewatkan. hari ini enak juga.
 //3 jun lg
 //4 jun mulai lg
+//5 jun heleh
 //masih lanjut docker lagi
 //lagi, lagi, lagi, lagi, lagi.lagi
 //lagi, sekarang fokus nutanix.. lagi. membukalagi, lagi. lagi, lagi. lagi, lagi
