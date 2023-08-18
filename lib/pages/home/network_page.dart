@@ -25,4 +25,4 @@ class NetworkPage extends StatelessWidget {
 }
 
 //15 agst alur kerja pembuatan apps pzn keep mindatama
-
+//17 agst nerusin aj
