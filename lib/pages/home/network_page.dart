@@ -32,3 +32,4 @@ class NetworkPage extends StatelessWidget {
 //21 agst yaiba e25
 //22 agst yaiba s2 e1
 //23 agst yaiba e4
+//24 NUTANIX CERTIFCICATE ASOSIATE
