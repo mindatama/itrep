@@ -33,3 +33,4 @@ class NetworkPage extends StatelessWidget {
 //22 agst yaiba s2 e1
 //23 agst yaiba e4
 //24 NUTANIX CERTIFCICATE ASOSIATE
+//26 nutanix module 2: start dari nutanix product
