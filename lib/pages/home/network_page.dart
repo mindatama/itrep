@@ -35,3 +35,4 @@ class NetworkPage extends StatelessWidget {
 //24 NUTANIX CERTIFCICATE ASOSIATE
 //26 nutanix module 2: start dari nutanix product
 //27 agst kerja sama masak 
+//28 agst banyaknya job..
