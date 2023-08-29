@@ -36,3 +36,4 @@ class NetworkPage extends StatelessWidget {
 //26 nutanix module 2: start dari nutanix product
 //27 agst kerja sama masak 
 //28 agst banyaknya job..
+//29 agst di lempar banyak gawe 
