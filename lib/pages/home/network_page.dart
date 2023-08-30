@@ -37,3 +37,4 @@ class NetworkPage extends StatelessWidget {
 //27 agst kerja sama masak 
 //28 agst banyaknya job..
 //29 agst di lempar banyak gawe 
+//30 agst sepertinya ke nhcf online
