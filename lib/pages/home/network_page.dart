@@ -38,3 +38,5 @@ class NetworkPage extends StatelessWidget {
 //28 agst banyaknya job..
 //29 agst di lempar banyak gawe 
 //30 agst sepertinya ke nhcf online
+
+//1sept yuk nca!!
