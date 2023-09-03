@@ -40,3 +40,4 @@ class NetworkPage extends StatelessWidget {
 //30 agst sepertinya ke nhcf online
 
 //1sept yuk nca!!
+//2sept gas
