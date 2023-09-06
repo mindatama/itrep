@@ -43,3 +43,4 @@ class NetworkPage extends StatelessWidget {
 //2sept gas
 //3sept lg
 //3sept padahal off gada liat
+//6sept nca
